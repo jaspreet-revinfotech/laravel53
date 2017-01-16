@@ -23,6 +23,7 @@ class CreateEmergencyPlanTemplatesTable extends Migration
             $table->integer('display_sequence')->default(100);
             $table->boolean('required');
             $table->text('template')->nullable();
+            $table->integer('sortOrder');
             $table->timestamps();
             $table->softDeletes();
         });
