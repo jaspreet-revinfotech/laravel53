@@ -1,0 +1,9 @@
+.col-md-12.space {
+    margin: 23px 0 10px 12px;
+}
+@media print
+{
+body * { visibility: visible; }
+.col-md-12.space * { visibility: hidden; }
+.div2 { position: absolute; top: 40px; left: 30px; }
+}
